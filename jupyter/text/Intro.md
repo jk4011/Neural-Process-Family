@@ -50,7 +50,7 @@ By accompanying the exposition with code and examples, we hope to (i) make the d
 This first page will give a broad, bird's eye view of the entire Neural Process Family.
 We'll see that the family splits naturally into two sub-families: the {doc}`Conditional NPF <CNPF>`, and the {doc}`Latent NPF <LNPF>`.
 These are covered in the following two pages, and there we'll get into more detail about the different architectures in each family.
-In the Reproducibility section we provide the code to run all the models and generate all the plots, while the [github repository](https://github.com/YannDubs/Neural-Process-Family) contains the framework for implementing NPs.
+In the Reproducibility section we provide the code to run all the models and generate all the plots, while the [github repository](https://github.com/jk4011/Neural-Process-Family) contains the framework for implementing NPs.
 
 Throughout the tutorial, we make liberal use of dropdown boxes to avoid breaking up the exposition.
 Feel free to skip or skim those on a first reading.

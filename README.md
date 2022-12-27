@@ -1,11 +1,11 @@
-# Neural Process Family [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/YannDubs/Neural-Process-Family/blob/master/LICENSE) [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
+# Neural Process Family [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/jk4011/Neural-Process-Family/blob/master/LICENSE) [![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/release/python-360/)
 
-Main entry point: [**Neural Process Family** website](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html).
+Main entry point: [**Neural Process Family** website](https://jk4011.github.io/Neural-Process-Family/text/Intro.html).
 
 ## What ?
 
 This repository contains:
-- the text of the [Neural Process Family webiste](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html)
+- the text of the [Neural Process Family webiste](https://jk4011.github.io/Neural-Process-Family/text/Intro.html)
 - the Pytorch code (training / plotting) as well as pretrained model to investigate the following models on image and synthetic 1D datasets:
     - CNP from [Conditional Neural Processes](https://arxiv.org/abs/1807.01613)
     - LNP from [Neural Processes](https://arxiv.org/abs/1807.01622)
@@ -14,7 +14,7 @@ This repository contains:
     - ConvLNP from [Meta-Learning Stationary Stochastic Process Prediction with Convolutional Neural Processes](https://arxiv.org/abs/2007.01332) 
 - the ("official") code to replicate all the image experiments from [Convolutional Conditional Neural Processes](https://arxiv.org/abs/1910.13556) and [Meta-Learning Stationary Stochastic Process Prediction with Convolutional Neural Processes](https://arxiv.org/abs/2007.01332). For 1D experiments see [ConvNP](https://github.com/wesselb/NeuralProcesses.jl) and [ConvCNP](https://github.com/cambridge-mlg/convcnp).
 
-For tutorials on how to use the npf library refer to the [reproducability section](https://yanndubs.github.io/Neural-Process-Family/reproducibility/CNP.html) of the [NPF website](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html).
+For tutorials on how to use the npf library refer to the [reproducability section](https://jk4011.github.io/Neural-Process-Family/reproducibility/CNP.html) of the [NPF website](https://jk4011.github.io/Neural-Process-Family/text/Intro.html).
 
 ## Install
 
@@ -31,14 +31,14 @@ Note that the version of skorch must be 0.8 to ensure that the pretrained models
 
 1. Install [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
 
-2. Build your image using `Dockerfile` or pull `docker pull yanndubs/npf:gpu`
+2. Build your image using `Dockerfile` or pull `docker pull jk4011/npf:gpu`
 
 3. Create and run a container, e.g.:
-`docker run --gpus all --init -d --ipc=host --name npf -v .:/Neural-Process-Family -p 8888:8888 -p 6006:6006 yanndubs/npf:gpu jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
+`docker run --gpus all --init -d --ipc=host --name npf -v .:/Neural-Process-Family -p 8888:8888 -p 6006:6006 jk4011/npf:gpu jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root`
 
 ## Examples
 
-Check the [website](https://yanndubs.github.io/Neural-Process-Family/text/Intro.html) for many plots and the code to produce them.
+Check the [website](https://jk4011.github.io/Neural-Process-Family/text/Intro.html) for many plots and the code to produce them.
 Here is a teaser:
 
 Sample functions from the predictive distribution of ConvLNPs (blue) and the oracle GP (green) with periodic and noisy Matern kernels:
@@ -61,7 +61,7 @@ In case you want to cite the NPF website or this specific implementation of the 
   author       = {Dubois, Yann and Gordon, Jonathan and Foong, Andrew YK},
   month        = {September},
   year         = {2020},
-  howpublished = {\url{http://yanndubs.github.io/Neural-Process-Family/}}
+  howpublished = {\url{http://jk4011.github.io/Neural-Process-Family/}}
 }
 ```
 

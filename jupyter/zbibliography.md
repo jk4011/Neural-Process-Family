@@ -11,7 +11,7 @@ In case you want to cite the NPF website or this specific implementation of the 
   author       = {Dubois, Yann and Gordon, Jonathan and Foong, Andrew YK},
   month        = {September},
   year         = {2020},
-  howpublished = {\url{http://yanndubs.github.io/Neural-Process-Family/}}
+  howpublished = {\url{http://jk4011.github.io/Neural-Process-Family/}}
 }
 ```
 
