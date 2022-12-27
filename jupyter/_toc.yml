@@ -30,5 +30,5 @@
   #- file: text/Related
   #  title: Related
   - file: zbibliography # need to add z because has to be processed last
-  - url: https://github.com/YannDubs/Neural-Process-Family
+  - url: https://github.com/jk4011/Neural-Process-Family
     title: GitHub Repo
